@@ -1,0 +1,9 @@
+section {
+    height: 600px;
+    @include center(); //appelle mixin centrer elt ds parent
+
+    p {
+        text-align: center;
+        width: 50%;
+    }
+}
